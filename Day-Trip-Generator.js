@@ -32,16 +32,41 @@ return cities[Math.floor(Math.random() * cities.length)];
 
 */
 
+function server(restaurants){
+
+return restaurants[Math.floor(Math.random() * restaurants.length)];
+}
+
+{
+var restaurants = ["Dennys","Ponderosa","Perkins","McDonalds","Olive Garden","Greek Restaurant","Applebees"];
+
+}
+
+console.log(server(restaurants));
+
+
+
+
+
+
 
 
 
 /*  As a user I want a mode of transportation to be randomly selected for my day trip [5 points]*/
 
+let result= ["car","plane","tank","ship","bicycle","truck","limo"];
+
+let tab = addTransport * Math.random();
+
+function addTransport(result){
+}
+let ints = addTransport(1, 2, 3, 4, 5, 6, 7);
 
 
 
 
 
+console.log(tab);
 
 
 
