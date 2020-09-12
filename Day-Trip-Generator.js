@@ -65,25 +65,39 @@ let stuff = [""];
 
 console.log(result[stuff]);
 
+/*  Used some basic backup information for the functions Math.random() and Math.floor()
+    from W3schools.com.  Specifically https://www.w3schools.com/jsref/jsref_random.asp and 
+    https://www.w3schools.com/jsref/jsref_floor.asp.  Also, used some class notes, specifically
+    the random die example.  */
+
 
 
 /*  As a user, I want a form of entertainment to be randomly selected for my day trip. [5 points]*/
 
+let entertainment = ["golf","theater","baseball","football","soccer","movies","concert"];
+
+let entertain = [""];
+
+let enjoy = Math.random() * entertainment.length;
+
+entertain += Math.floor(enjoy);
 
 
 
+console.log(entertainment[entertain]);
 
-
-
-
-
-
-
-
+/*  This is the same code as transportation above.  I found some information at
+    www.w3schools.com for the functions used.  */
 
 
 /*  As a user, I want to be able to randomly re-select a destination, restaurant, mode of transportation,
-and/or form of entertainment if I don't like one or more of those things. [15 points] */
+and/or form of entertainment if I don't like one or more of those things. [15 points] 
+
+    Use a while loop to set conditions for the options to be chosen.  Need to make variables
+    to test whether a prompt answer of "Yes" or "No" will result in another random option
+    for the user to choose.  This has to be done for all 4 options.  The variables are already
+    active on this file.  I may take all the console.log()'s into play, possibly as if else
+    statements.  */
 
 
 
