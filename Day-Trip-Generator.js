@@ -3,11 +3,9 @@
 
 /*  As a user, I want a destination to be randomly
 selected for my day trip. [5 points]
-1. Need a for loop of an array of destinations.
-2. Need to find the right variables and procedure
-   to get a random integer to choose the array.
-3. Make an alert() to provide the info.  Maybe a button to roll
-   the random destination. */
+1. Need a function to find a random number times a function that turns it
+   into an integer to be consoled to an array of cities.  As the function is
+   reset a new city is choosen based on the Math.random.  */
 
    function choice(cities)
 {
@@ -56,17 +54,16 @@ console.log(server(restaurants));
 
 let result= ["car","plane","tank","ship","bicycle","truck","limo"];
 
-let tab = addTransport * Math.random();
+let stuff = [""];
 
-function addTransport(result){
-}
-let ints = addTransport(1, 2, 3, 4, 5, 6, 7);
+ let addTransport = Math.random() * result.length;
 
 
+ stuff += Math.floor(addTransport);
 
 
 
-console.log(tab);
+console.log(result[stuff]);
 
 
 
