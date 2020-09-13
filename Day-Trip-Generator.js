@@ -99,70 +99,27 @@ and/or form of entertainment if I don't like one or more of those things. [15 po
     active on this file.  I may take all the console.log()'s into play, possibly as if else
     statements.  */
 
-let i = 0;
+
 //let chooseCities = cities.length;
-let aaa = confirm(cities[i] + " " + "Would you like to vist a different city?");
+//let aaa = confirm(cities[i] + " " + "Would you like to vist a different city?");
 // let bbb = prompt("Would you like to go to a different restaurant? Yes/No");
 // let ccc = prompt("Would you like to move about with a different mode of transport? Yes/No");
 // let ddd = prompt("Would you like to go to a different entertainment? Yes/No");
-let aaacities = [""];
-aaacities += cities[i];
+// let aaacities = [""];
+// aaacities += cities[i];
 let j = true;
 let d = false;
+let i = 0;
 
-while(i < cities.length && aaa === j){
+while(i <= cities.length, confirm(cities[i] + " " + "Try Again")){
 
-
-//cities[i];
-
-    // i++;
-}
-
-    if(cities.repeat(confirm("Shall you choose another?"))){
-
-    }
-    
-        else if(cities[i] === d)
-
-        
-    
+i++;
 
 
+    if(cities[i] === d){
 
-
-//while(i = 0 && i < cities.length && aaa === j && confirm(cities[i] + " " + "Try Again") || aaa === d){
-    
-//    i++;
-
-    
-    //let choicecities = cities[i];
-    //i++;
-
-    //if(i <= cities.length && aaa === confirm(aaa)){
-
- 
-
-//console.log(cities[i]);
-
-/*    let i = 0;
-    let arrayLength = array.length;
-    while(i < arrayLength ) {
-       let val = array[i];
-       i++;
-    }
-*/
-
-
-    
-
-    //aaa = j;
-    //}
-    //if(aaa = d){
-
-
-    //}
-
-    
+        }
+    }       
 
 
         console.log(cities[i] + ":  " + "You picked a marvelous city to discover.");
@@ -229,5 +186,5 @@ selections.  [10 points] */
 
 
 
-//  As a developer, I want all of my functions to have a Single Responsibility.  
-
+//  As a developer, I want all of my functions to have a Single Responsibility. 
+        
