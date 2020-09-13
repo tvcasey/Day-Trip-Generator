@@ -12,7 +12,7 @@ selected for my day trip. [5 points]
 return cities[Math.floor(Math.random() * cities.length)];
    
 }
-   var cities = ["Paris", "London", "Rome", "Berlin", "Madrid", "Athens", "Budapest", "Moscow", "Zurich"];
+   let cities = ["Paris", "London", "Rome", "Berlin", "Madrid", "Athens", "Budapest", "Moscow", "Zurich"];
     console.log(choice(cities));
 {
 
@@ -100,25 +100,49 @@ and/or form of entertainment if I don't like one or more of those things. [15 po
     statements.  */
 
 let i = 0;
+//let chooseCities = cities.length;
 let aaa = confirm(cities[i] + " " + "Would you like to vist a different city?");
 // let bbb = prompt("Would you like to go to a different restaurant? Yes/No");
 // let ccc = prompt("Would you like to move about with a different mode of transport? Yes/No");
 // let ddd = prompt("Would you like to go to a different entertainment? Yes/No");
 let aaacities = [""];
-//aaacities += choice(cities);
+aaacities += cities[i];
 let j = true;
 let d = false;
-let choosecities = cities.length;
 
-while(i < choosecities && aaa === j){
-    let choicecities = cities[i];
-    i++;
+while(i < cities.length && aaa === j){
 
-    if(i <= cities.length && aaa === j === confirm(aaa)){
+
+//cities[i];
+
+    // i++;
+}
+
+    if(cities.repeat(confirm("Shall you choose another?"))){
 
     }
+    
+        else if(cities[i] === d)
 
-console.log(choicecities);
+        
+    
+
+
+
+
+//while(i = 0 && i < cities.length && aaa === j && confirm(cities[i] + " " + "Try Again") || aaa === d){
+    
+//    i++;
+
+    
+    //let choicecities = cities[i];
+    //i++;
+
+    //if(i <= cities.length && aaa === confirm(aaa)){
+
+ 
+
+//console.log(cities[i]);
 
 /*    let i = 0;
     let arrayLength = array.length;
@@ -133,14 +157,15 @@ console.log(choicecities);
 
     //aaa = j;
     //}
-    if(aaa = d)
+    //if(aaa = d){
+
 
     //}
 
     
 
 
-        console.log(cities + ":  " + "You picked a marvelous city to discover.");
+        console.log(cities[i] + ":  " + "You picked a marvelous city to discover.");
 
     
 
@@ -206,4 +231,3 @@ selections.  [10 points] */
 
 //  As a developer, I want all of my functions to have a Single Responsibility.  
 
-}
