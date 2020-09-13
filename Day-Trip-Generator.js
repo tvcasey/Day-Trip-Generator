@@ -99,36 +99,50 @@ and/or form of entertainment if I don't like one or more of those things. [15 po
     active on this file.  I may take all the console.log()'s into play, possibly as if else
     statements.  */
 
-
-let aaa = prompt("Would you like to go to a different location?  Yes/No");
+let i = 0;
+let aaa = confirm(cities[i] + " " + "Would you like to vist a different city?");
 // let bbb = prompt("Would you like to go to a different restaurant? Yes/No");
 // let ccc = prompt("Would you like to move about with a different mode of transport? Yes/No");
 // let ddd = prompt("Would you like to go to a different entertainment? Yes/No");
-let aaacities = [""]
-aaacities += choice(cities);
-let g = 0
-{
-while(aaa === "Yes" && aaa !== "No"){
+let aaacities = [""];
+//aaacities += choice(cities);
+let j = true;
+let d = false;
+let choosecities = cities.length;
 
-}
+while(i < choosecities && aaa === j){
+    let choicecities = cities[i];
+    i++;
 
-
-
-    if(aaa === "Yes" === prompt(aaacities + " " + "Try another city?  Yes/No")){
+    if(i <= cities.length && aaa === j === confirm(aaa)){
 
     }
+
+console.log(choicecities);
+
+/*    let i = 0;
+    let arrayLength = array.length;
+    while(i < arrayLength ) {
+       let val = array[i];
+       i++;
+    }
+*/
+
+
+    
+
+    //aaa = j;
+    //}
+    if(aaa = d)
+
+    //}
 
     
 
 
-    if(aaa === "No"){
+        console.log(cities + ":  " + "You picked a marvelous city to discover.");
 
-    }
-
-
-            console.log("You picked a marvelous city to discover.");
-}  
-
+    
 
     //  Got some glancing help for while/for loops and the prompt() from w3schools.com
     //  under those topics.  Really less than a minute total.  Building on what I'm
@@ -190,4 +204,6 @@ selections.  [10 points] */
 
 
 
-/*  As a developer, I want all of my functions to have a Single Responsibility.  Remember,*/ 
+//  As a developer, I want all of my functions to have a Single Responsibility.  
+
+}
