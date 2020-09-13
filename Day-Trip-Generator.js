@@ -106,21 +106,37 @@ let aaa = prompt("Would you like to go to a different location?  Yes/No");
 // let ddd = prompt("Would you like to go to a different entertainment? Yes/No");
 let aaacities = [""]
 aaacities += choice(cities);
+let i = 0;
+
+for(cities[i]; i < 9 && aaa === "Yes"; i++){
 
 
-while(aaa === "Yes" && alert(aaacities, "Try another city.") && prompt(aaa)){
+
+    if(aaa === "Yes" === prompt(aaacities + " " + "Try another city?  Yes/No")){
+
+    }
 
 
-}
+    if(aaa === "No"){
+
+
+            console.log("You picked a marvelous city to discover.");
+    }
+
+
+    //  Got some glancing help for while/for loops and the prompt() from w3schools.com
+    //  under those topics.  Really less than a minute total.  Building on what I'm
+    //  starting to understand.
+
 
 
  /*|| bbb === Yes === server(restaurants) || ccc === Yes === (result[stuff]) || ddd === Yes === (entertainment[entertain])*/
 
-    if(aaa === "No" === alert(aaacities) + "You've chosen an amazing city to visit!"){
+  //  if(aaa === "No" === alert(aaacities) + "You've chosen an amazing city to visit!"){
 
 
 
-    }
+    //}
 
 
     
@@ -136,7 +152,7 @@ while(aaa === "Yes" && alert(aaacities, "Try another city.") && prompt(aaa)){
 
 
 
-
+}
 
 
 
@@ -176,35 +192,4 @@ selections.  [10 points] */
 
 
 
-/*  As a developer, I want all of my functions to have a Single Responsibility.  Remember,
-each function should do just one thing! [5 points]  */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/*  As a developer, I want all of my functions to have a Single Responsibility.  Remember,*/ 
