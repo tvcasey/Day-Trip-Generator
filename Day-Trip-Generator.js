@@ -106,9 +106,11 @@ let aaa = prompt("Would you like to go to a different location?  Yes/No");
 // let ddd = prompt("Would you like to go to a different entertainment? Yes/No");
 let aaacities = [""]
 aaacities += choice(cities);
-let i = 0;
+let g = 0
+{
+while(aaa === "Yes" && aaa !== "No"){
 
-for(cities[i]; i < 9 && aaa === "Yes"; i++){
+}
 
 
 
@@ -116,12 +118,16 @@ for(cities[i]; i < 9 && aaa === "Yes"; i++){
 
     }
 
+    
+
 
     if(aaa === "No"){
 
+    }
+
 
             console.log("You picked a marvelous city to discover.");
-    }
+}  
 
 
     //  Got some glancing help for while/for loops and the prompt() from w3schools.com
@@ -148,14 +154,6 @@ for(cities[i]; i < 9 && aaa === "Yes"; i++){
     
     
     /*bbb === No === false || ccc === No === false)*/
-
-
-
-
-}
-
-
-
 
 /*  As a user, I want to be able to confirm that my day trip is "complete" once I like all of the random
 selections.  [10 points] */
