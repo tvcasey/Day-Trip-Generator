@@ -100,7 +100,38 @@ and/or form of entertainment if I don't like one or more of those things. [15 po
     statements.  */
 
 
+let aaa = prompt("Would you like to go to a different location?  Yes/No");
+// let bbb = prompt("Would you like to go to a different restaurant? Yes/No");
+// let ccc = prompt("Would you like to move about with a different mode of transport? Yes/No");
+// let ddd = prompt("Would you like to go to a different entertainment? Yes/No");
+let aaacities = [""]
+aaacities += choice(cities);
 
+
+while(aaa === "Yes" && alert(aaacities, "Try another city.") && prompt(aaa)){
+
+
+}
+
+
+ /*|| bbb === Yes === server(restaurants) || ccc === Yes === (result[stuff]) || ddd === Yes === (entertainment[entertain])*/
+
+    if(aaa === "No" === alert(aaacities) + "You've chosen an amazing city to visit!"){
+
+
+
+    }
+
+
+    
+
+    
+    
+        
+    
+    
+    
+    /*bbb === No === false || ccc === No === false)*/
 
 
 
